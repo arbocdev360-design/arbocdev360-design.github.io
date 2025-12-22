@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Privacy Policy - Note M+</title>
+  <style>
+    :root { --pad: 16px; --max: 860px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Sans", Arial, sans-serif;
+           margin: 0; line-height: 1.75; }
+    header, main, footer { max-width: var(--max); margin: 0 auto; padding: var(--pad); }
+    header { padding-top: 24px; }
+    h1 { margin: 0 0 6px; }
+    .muted { opacity: .75; }
+    .toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 12px 0 18px; }
+    .btn {
+      display: inline-block; padding: 9px 12px; border-radius: 10px;
+      border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+      text-decoration: none; cursor: pointer; background: transparent; color: inherit;
+    }
+    .badge { font-size: 12px; padding: 2px 8px; border-radius: 999px;
+             border: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
+    .card {
+      border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+      border-radius: 12px; padding: 16px; margin: 14px 0;
+    }
+    ul { padding-left: 1.2em; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .lang { display: none; }
+    .lang.active { display: block; }
+    .toplinks { display:flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .toplinks a { color: inherit; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="toplinks muted">
+      <a href="./index.html">← Home</a>
+      <span class="badge">Privacy Policy</span>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="muted">
+      This page is publicly accessible and can be used as the “Privacy Policy URL” in App Store Connect.
+    </p>
+
+    <div class="toolbar">
+      <button class="btn" type="button" onclick="setLang('ja')">日本語</button>
+      <button class="btn" type="button" onclick="setLang('en')">English</button>
+      <span class="muted">（いつでも切替できます）</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== JA ===================== -->
+    <section id="ja" class="lang">
+      <div class="card">
+        <h2>プライバシーポリシー（日本語）</h2>
+        <p><strong>最終更新日：</strong>2025-12-22</p>
+        <p><strong>アプリ名：</strong>Note M+</p>
+        <p><strong>提供者：</strong>Kazuki Nagino（以下「当方」）</p>
+
+        <h3>1. 取得する情報</h3>
+        <p>当方は、本アプリの提供にあたり、以下の情報を取得または第三者サービスに送信する場合があります。</p>
+
+        <h4>(1) 広告配信に伴い取得・送信される可能性のある情報</h4>
+        <p>本アプリは、バナー広告等の配信のために第三者の広告配信SDKを利用します（例：Google Mobile Ads / AdMob 等）。</p>
+        <ul>
+          <li>端末情報（機種、OS、言語設定 等）</li>
+          <li>広告識別子（IDFA 等）※トラッキング許諾がある場合に利用されることがあります</li>
+          <li>IPアドレス、概ねの位置情報（推定）</li>
+          <li>広告表示・クリック等の利用状況（広告効果測定）</li>
+        </ul>
+        <p class="muted">※実際に取得される項目は、利用するSDKや設定、ユーザーの同意状況により異なります。</p>
+
+        <h4>(2) 当方が直接取得する情報</h4>
+        <p>当方は、原則としてユーザーの氏名・住所等の個人情報を直接取得しません。</p>
+        <p class="muted">（お問い合わせフォーム/メール等で個人情報を受け取る運用がある場合は、ここを実態に合わせて書き換えてください）</p>
+
+        <h3>2. 利用目的</h3>
+        <ul>
+          <li>広告の配信、広告のパーソナライズ、広告効果測定</li>
+          <li>アプリの品質改善、不具合の解析</li>
+          <li>お問い合わせ対応（実施している場合）</li>
+        </ul>
+
+        <h3>3. App Tracking Transparency（ATT）について</h3>
+        <p>
+          本アプリは、iOSのApp Tracking Transparency（ATT）に基づき、トラッキングの許可をユーザーに求めます。
+        </p>
+        <ul>
+          <li><strong>許可した場合</strong>：IDFA等を用いた広告の最適化・効果測定が行われる場合があります</li>
+          <li><strong>許可しない場合</strong>：IDFA等を用いたトラッキングは行わず、コンテキスト広告等になる場合があります</li>
+        </ul>
+
+        <h3>4. 第三者提供（外部送信）</h3>
+        <p>当方は、広告配信等のため、広告配信事業者・分析事業者等の第三者へ情報が送信される場合があります。</p>
+        <p>利用している第三者サービス（利用しているものだけ残してください）：</p>
+        <ul>
+          <li>Google Mobile Ads（AdMob）</li>
+          <li>（例）Firebase Analytics / Crashlytics（使っていれば）</li>
+        </ul>
+
+        <h3>5. 保存期間</h3>
+        <p>取得した情報は、利用目的の達成に必要な範囲で保存されます。第三者SDKが取得する情報の保存期間は各提供者の定めに従います。</p>
+
+        <h3>6. ユーザーの選択肢（同意の撤回等）</h3>
+        <ul>
+          <li>iOSの設定から、トラッキング許可（ATT）をいつでも変更できます</li>
+          <li>（分析SDKのオプトアウト等がある場合は追記）</li>
+        </ul>
+
+        <h3>7. お問い合わせ</h3>
+        <p>メール：<a href="mailto:support@example.com">support@example.com</a></p>
+        <p class="muted">※実際のサポート窓口に変更してください</p>
+
+        <h3>8. 改定</h3>
+        <p>本ポリシーは必要に応じて変更されることがあります。変更後は本ページにて告知します。</p>
+      </div>
+    </section>
+
+    <!-- ===================== EN ===================== -->
+    <section id="en" class="lang">
+      <div class="card">
+        <h2>Privacy Policy (English)</h2>
+        <p><strong>Last updated:</strong> 2025-12-22</p>
+        <p><strong>App:</strong> Note M+</p>
+        <p><strong>Provider:</strong> Kazuki Nagino (“we”, “us”)</p>
+
+        <h3>1. Information We Collect</h3>
+        <p>We may collect or transmit the following information in order to operate the app.</p>
+
+        <h4>(1) Advertising-related data</h4>
+        <p>
+          The app uses third-party advertising SDKs to deliver banner ads (e.g., Google Mobile Ads / AdMob).
+          Depending on your device, settings, and consent status, the SDKs may collect:
+        </p>
+        <ul>
+          <li>Device information (model, OS version, language, etc.)</li>
+          <li>Advertising identifier (e.g., IDFA) — only when tracking permission is granted</li>
+          <li>IP address and approximate location (inferred)</li>
+          <li>Ad interactions (impressions, clicks) for measurement</li>
+        </ul>
+        <p class="muted">Actual items vary by SDK configuration and user consent.</p>
+
+        <h4>(2) Information collected directly by us</h4>
+        <p>We generally do not directly collect personal information such as your name or address.</p>
+        <p class="muted">(If you collect emails via support, update this section to reflect your actual operation.)</p>
+
+        <h3>2. How We Use Information</h3>
+        <ul>
+          <li>Ad delivery, personalization, and measurement</li>
+          <li>App improvement and troubleshooting</li>
+          <li>Support responses (if applicable)</li>
+        </ul>
+
+        <h3>3. App Tracking Transparency (ATT)</h3>
+        <p>
+          The app requests tracking authorization using Apple’s App Tracking Transparency (ATT).
+        </p>
+        <ul>
+          <li><strong>If allowed</strong>: IDFA-based ad personalization and measurement may be used</li>
+          <li><strong>If not allowed</strong>: we do not track using IDFA; ads may be contextual</li>
+        </ul>
+
+        <h3>4. Third-party Sharing / Data Transmission</h3>
+        <p>Information may be transmitted to third-party providers for ads and analytics.</p>
+        <p>Third-party services (keep only what you actually use):</p>
+        <ul>
+          <li>Google Mobile Ads (AdMob)</li>
+          <li>(Optional) Firebase Analytics / Crashlytics</li>
+        </ul>
+
+        <h3>5. Data Retention</h3>
+        <p>We retain information only as needed for the purposes described above. Retention by third-party SDKs is governed by their policies.</p>
+
+        <h3>6. Your Choices</h3>
+        <ul>
+          <li>You can change ATT tracking permission anytime in iOS Settings</li>
+          <li>(Add opt-out instructions if you provide them)</li>
+        </ul>
+
+        <h3>7. Contact</h3>
+        <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
+
+        <h3>8. Changes</h3>
+        <p>We may update this policy from time to time. Updates will be posted on this page.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="muted">
+    <p>© <span id="y"></span> Note M+</p>
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll(".lang").forEach(el => el.classList.remove("active"));
+      const el = document.getElementById(lang);
+      if (el) el.classList.add("active");
+      // update hash without jumping too much
+      history.replaceState(null, "", "#" + lang);
+      document.documentElement.lang = lang;
+    }
+
+    // Default language:
+    // 1) URL hash (#ja / #en)
+    // 2) Browser language (ja -> Japanese else English)
+    (function init() {
+      document.getElementById("y").textContent = new Date().getFullYear();
+      const hash = (location.hash || "").replace("#", "");
+      if (hash === "ja" || hash === "en") return setLang(hash);
+
+      const nav = (navigator.language || "").toLowerCase();
+      if (nav.startsWith("ja")) setLang("ja");
+      else setLang("en");
+    })();
+  </script>
+</body>
+</html>
