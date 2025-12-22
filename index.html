@@ -7,18 +7,25 @@
   <title>Note M+ - Privacy</title>
   <style>
     :root { --pad: 16px; --max: 860px; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Sans", Arial, sans-serif;
-           margin: 0; line-height: 1.7; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP",
+                   "Hiragino Sans", Arial, sans-serif;
+      margin: 0; line-height: 1.7;
+    }
     header, main, footer { max-width: var(--max); margin: 0 auto; padding: var(--pad); }
     header { padding-top: 28px; }
-    .card { border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
-            border-radius: 12px; padding: 16px; }
-    a { color: inherit; }
+    .card {
+      border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+      border-radius: 12px; padding: 16px;
+    }
     .muted { opacity: .75; font-size: .95em; }
-    .btn { display: inline-block; padding: 10px 14px; border-radius: 10px;
-           border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
-           text-decoration: none; }
     .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .btn {
+      display: inline-block; padding: 10px 14px; border-radius: 10px;
+      border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+      text-decoration: none; color: inherit;
+    }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
   </style>
 </head>
 <body>
@@ -35,9 +42,10 @@
         <a class="btn" href="./privacy-policy.html#ja">日本語</a>
         <a class="btn" href="./privacy-policy.html#en">English</a>
       </div>
+
       <p class="muted" style="margin-top:12px">
-        App Store Connect の「Privacy Policy URL」には、このページではなく
-        <code>privacy-policy.html</code> のURLを入れるのがおすすめです。
+        App Store Connect の「Privacy Policy URL」には通常、
+        <code>https://あなた.github.io/privacy-policy.html</code> を設定します。
       </p>
     </div>
   </main>
